@@ -1,0 +1,296 @@
+
+/* global class */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    box-sizing:border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+    section{
+     padding:100px 0px;
+     text-align: center;
+    }
+p{
+font-size:15px;
+font-weight:300px;
+}
+.heading{
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 40px;
+letter-spacing: 2px;
+}
+.sub-heading{
+font-size:25px;
+line-height:25px;
+text-transform: uppercase;
+margin: 10px opx;
+}
+.underline{
+border-top:5px solid #6f6c6c;
+width:5%;
+margin:10px auto;
+}
+.writing-part{
+    margin-bottom:50px;
+}
+/* layout */
+.container{
+    width:90%;
+    margin:auto;
+}
+.row{
+    width:100%;
+    float:left;
+}
+.col-1{
+    width:8.33%;
+    float: left;
+}
+.col-2{
+   width:16.66%;
+   float:left;
+}
+.col-3{
+   width:25%;
+   float:left
+}
+.col-4{
+    width:33.33%;
+    float:left;
+}
+.col-5{
+    width:41.66%;
+    float:left;
+}
+.col-6{
+     width:50%;
+     float:left;
+}
+.col-7{
+    width: 58.33;
+    float:left;
+}
+.col-8{
+    width: 66.66%;
+    float:left;
+}
+.col-9{
+    width:75%;
+     float:left;
+}
+.col-10{
+     width: 83.33%;
+    float:left;
+}
+
+.col-11{
+    width:91%;
+    float:left;
+}
+.col-12{
+    width: 100%;
+    float:left;
+}
+/* header part */
+header{
+    background-color:#aa88b6 ;
+}
+.nav{
+      padding:10px 0px;
+}
+.logo-part{
+      padding:10px 0px;
+}
+.menu-part{
+
+}
+.menu-part ul{
+text-align:right;
+padding:12px 0px;
+}
+.menu-part li{
+list-style:none;
+display:inline-block;
+margin:0px 10px;
+padding:7px;
+transition:ease-in-out 0.5s;
+}
+.menu-part li:hover{
+background-color:#615e61;
+border-radius:5px; 
+}
+.menu-part li a {
+font-size:17px;
+font-weight:400;
+line-height:17px;
+color:#ffffff;
+text-decoration:none;
+text-transform: uppercase;
+}
+.hero-part{
+text-align: center;
+padding:150px 100px;
+
+}
+.hero-part h1{
+font-size:50px;
+line-height:50px;
+color: #ffffff;
+}
+.hero-part button{
+background-color:#e87528;
+color: #ffffff;
+padding:10px;
+font-size:20px;
+font-weight:500;
+text-transform:uppercase;
+width:200px;
+margin-top:40px;
+
+}
+#service{
+background-color:#79bbaf;
+color:white
+}
+.service-box{
+    padding: 0px 25px;
+}
+.service-box img{
+height:150px;
+}
+#team{
+background-color:#ffffff;
+color:#848ea0;
+}
+.des{
+color:#588880;
+font-size:17px;
+font-weight:400px;
+}
+.team-icon{
+margin-top:15px;
+}
+.team-icon-i{
+color:white;
+background-color:#588880;
+padding:10px;
+margin:0px 5px;
+border-radius:50%;
+width:40px;
+}
+#portfolio{
+background-color:#ffdd99;
+}
+.portfolio-btn-part {
+margin-top:20px;
+}
+.portfolio-btn-part button {
+padding:5px 20px ;
+margin:0px 5px;
+text-transform:uppercase;
+background:#f0c47d;
+transition:ease-in 0.5s;
+}
+.portfolio-btn-part button:hover{
+background:#fff;
+}
+.portfolio-box-part{
+margin-top:20px;
+}
+.load-btn{
+background-color:#13917c;
+color:#fff;
+padding:10px;
+font-size:20px;
+font-weight:500;
+text-transform:uppercase;
+width:200px;
+margin-top:40px;
+}
+#about{
+background-color:#d74680;
+color:#fff;
+}
+.p{
+ padding:21px 21px;
+}
+.about-icon{
+padding:17px;
+}
+#contact{
+background-color:#3c5499;
+color:#fff;
+}
+input{
+background:#273a71 ;
+color: white;
+display: block;
+width:50%;
+padding:10px;
+}
+.form-part-one{
+}
+.form-name{
+text-align:right;
+}
+input[type="text"]{
+width:50%;
+background:#273a71 ;
+padding:10px;
+margin-right:1%;
+}
+.form-email{
+text-align: start;
+}
+input[type="email"]{
+width:50%;
+background:#273a71 ;
+padding:10px;
+margin-left:1%;
+}
+.form-part-tow{
+
+}
+textarea{
+width:51%;
+background:#273a71;
+margin-top:10px;
+padding:10px;
+color: #fff;
+}
+input[type="submit"]{
+    display: block;
+    margin: 10px auto 0px;
+    background-color:#30bae7 ;
+color:#fff;
+padding:10px;
+font-size:20px;
+font-weight:500;
+text-transform: uppercase;
+width:200px;
+}
+input::placeholder,
+textarea::placeholder{
+    color: #fff;
+}
+footer{
+    background: #344b8e;
+}
+footer ul{
+text-align: center;
+padding:20px 0px;
+}
+footer li{
+display:inline-block;
+margin: 10px 13px;
+}
+footer a{
+ font-size: 20px;
+font-weight:600;
+text-decoration: none;
+color:#fff;
+}
